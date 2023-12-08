@@ -34,3 +34,13 @@ export default {
 - React
 - TailwindCSS
 - TypeScript
+
+## Description
+
+- compaign site and storefront for a limited edition shoe
+- will be linked to in advertisements, so user can learn more, get excited about
+  the product, and purchase it seamlessly
+
+## References
+
+- https://www.nike.com/ca/t/luka-2-trick-shot-basketball-shoes-W1GZ1g/DX8733-103
