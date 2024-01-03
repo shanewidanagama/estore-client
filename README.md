@@ -1,7 +1,6 @@
 # Luka 2 'Trick Shot' Storefront
 Storefront and compaign site for a limited edition shoe.
-Will be linked to in advertisements, so customers can learn more, get excited about
-  the product, and purchase it seamlessly.
+Will be linked to in advertisements, so customers can learn more about the product, get excited about it, and purchase it seamlessly.
   
 # How it's Made 
 **Tech Used:** React, Material UI, TypeScript, Vite
