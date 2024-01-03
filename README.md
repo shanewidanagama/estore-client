@@ -1,13 +1,19 @@
-# React + TypeScript + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Luka 2 'Trick Shot' Storefront
+Storefront and compaign site for a limited edition shoe.
+Will be linked to in advertisements, so customers can learn more, get excited about
+  the product, and purchase it seamlessly.
+  
+# How it's Made 
+**Tech Used:** React, Material UI, TypeScript, Vite
+  
+The Vite template that was provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+### Expanding the ESLint configuration
 
 If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
@@ -29,17 +35,6 @@ export default {
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 
-## Technology Used
-
-- React
-- TailwindCSS
-- TypeScript
-
-## Description
-
-- compaign site and storefront for a limited edition shoe
-- will be linked to in advertisements, so user can learn more, get excited about
-  the product, and purchase it seamlessly
 
 ## References
 
