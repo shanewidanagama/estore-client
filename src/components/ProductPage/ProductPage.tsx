@@ -1,10 +1,4 @@
-import {
-  Box,
-  Button,
-  Chip,
-  Container,
-  Grid,
-} from "@mui/material";
+import { Box, Button, Chip, Container, Grid } from "@mui/material";
 import "./ProductPage.css";
 import React from "react";
 import { Link } from "react-router-dom";
@@ -15,7 +9,7 @@ interface ChipData {
 }
 
 export default function ProductPage() {
-  const [chipData, setChipData] = React.useState<readonly ChipData[]>([
+  const [chipData] = React.useState<readonly ChipData[]>([
     { key: 0, label: "US 3.5" },
     { key: 1, label: "US 4" },
     { key: 2, label: "US 4.5" },
