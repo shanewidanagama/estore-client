@@ -23,8 +23,7 @@ interface Props {
 
 const drawerWidth = 240;
 const navItems = [
-  { path: "/", text: "Home" },
-  { path: "/product-page", text: "'Trick Shot'" },
+  { path: "/", text: "Home" }
 ];
 
 // A responsive app bar with a drawer displaying information about the current
