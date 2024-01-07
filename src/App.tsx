@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <CssBaseline />
-      <BrowserRouter>
+      <BrowserRouter basename="/trick-shot-ecommerce-client/">
         <DrawerAppBar />
         <Routes>
           <Route path="/" element={<ProductPage />} />
