@@ -25,7 +25,6 @@ const drawerWidth = 240;
 const navItems = [
   { path: "/", text: "Home" },
   { path: "/product-page", text: "'Trick Shot'" },
-  { path: "/checkout", text: "Checkout" },
 ];
 
 // A responsive app bar with a drawer displaying information about the current
@@ -61,10 +60,10 @@ export default function DrawerAppBar(props: Props) {
     window !== undefined ? () => window().document.body : undefined;
 
   return (
-    <Box sx={{ display: "flex", pb: 4 }}>
+    <Box sx={{ display: "flex", pb: 12 }}>
       <CssBaseline />
       <AppBar component="nav">
-        <Toolbar>
+        <Toolbar sx={{bgcolor: "black"}}>
           <IconButton
             color="inherit"
             aria-label="open drawer"
