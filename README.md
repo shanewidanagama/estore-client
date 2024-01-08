@@ -18,7 +18,3 @@ Responsive storefront for Luka 2 'Trick Shot' basketball shoes. Ads on social me
 # Lessons Learned
 
 - Inspecting similar web apps to the one you want to build in Chrome DevTools is a great way to learn how to build them.
-
-## References
-
-- https://www.nike.com/ca/t/luka-2-trick-shot-basketball-shoes-W1GZ1g/DX8733-103
