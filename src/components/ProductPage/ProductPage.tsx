@@ -46,7 +46,6 @@ export default function ProductPage() {
                 sx={{
                   display: "flex",
                   justifyContent: "center",
-                  marginBottom: "3rem",
                 }}
               >
                 <img
@@ -56,13 +55,16 @@ export default function ProductPage() {
               </Box>
             </Grid>
             <Grid item xs={12} md={6}>
-              <Box component="h1" sx={{ p: "0.5rem" }}>
+              <Box
+                component="h1"
+                sx={{ p: "0.5rem", fontSize: "3rem", fontWeight: "bold" }}
+              >
                 Luka 2 'Trick Shot'
               </Box>
-              <Box component="h2" sx={{ p: "0.5rem" }}>
+              <Box component="h2" sx={{ p: "0.5rem", fontWeight: "bold" }}>
                 $170
               </Box>
-              <Box component="h6" sx={{ p: "0.5rem" }}>
+              <Box component="h6" sx={{ p: "0.5rem", fontWeight: "bold" }}>
                 Select Size
               </Box>
               <Box

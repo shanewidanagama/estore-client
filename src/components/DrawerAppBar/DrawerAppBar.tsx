@@ -22,9 +22,7 @@ interface Props {
 }
 
 const drawerWidth = 240;
-const navItems = [
-  { path: "/", text: "Home" }
-];
+const navItems = [{ path: "/", text: "Home" }];
 
 // A responsive app bar with a drawer displaying information about the current
 // screen
@@ -39,9 +37,6 @@ export default function DrawerAppBar(props: Props) {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
-      <Typography variant="h6" sx={{ my: 2 }}>
-        Nike
-      </Typography>
       <Divider />
       <List>
         {navItems.map((item) => (
@@ -62,7 +57,7 @@ export default function DrawerAppBar(props: Props) {
     <Box sx={{ display: "flex", pb: 12 }}>
       <CssBaseline />
       <AppBar component="nav">
-        <Toolbar sx={{bgcolor: "black"}}>
+        <Toolbar sx={{ bgcolor: "black" }}>
           <IconButton
             color="inherit"
             aria-label="open drawer"
@@ -72,14 +67,28 @@ export default function DrawerAppBar(props: Props) {
           >
             <MenuIcon />
           </IconButton>
-          <Typography
-            variant="h6"
-            component="div"
-            sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
+          <Box sx={{ flexGrow: 1 }}>
+            <svg
+              aria-hidden="true"
+              className="pre-logo-svg"
+              focusable="false"
+              viewBox="0 0 24 24"
+              role="img"
+              width="4em"
+              height="4em"
+              fill="none"
+            >
+              <path
+                fill="currentColor"
+                fill-rule="evenodd"
+                d="M21 8.719L7.836 14.303C6.74 14.768 5.818 15 5.075 15c-.836 0-1.445-.295-1.819-.884-.485-.76-.273-1.982.559-3.272.494-.754 1.122-1.446 1.734-2.108-.144.234-1.415 2.349-.025 3.345.275.2.666.298 1.147.298.386 0 .829-.063 1.316-.19L21 8.719z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </Box>
+          <Box
+            sx={{ display: { xs: "none", sm: "block" }, fontWeight: "bold" }}
           >
-            Nike
-          </Typography>
-          <Box sx={{ display: { xs: "none", sm: "block" } }}>
             {navItems.map((item) => (
               <Link to={item.path} key={item.text}>
                 {item.text}
