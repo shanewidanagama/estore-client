@@ -67,6 +67,7 @@ export default function DrawerAppBar(props: Props) {
             <MenuIcon />
           </IconButton>
           <Box sx={{ flexGrow: 1 }}>
+            <Link to="/">
             <svg
               aria-hidden="true"
               className="pre-logo-svg"
@@ -84,6 +85,7 @@ export default function DrawerAppBar(props: Props) {
                 clipRule="evenodd"
               ></path>
             </svg>
+            </Link>
           </Box>
           <Box
             sx={{ display: { xs: "none", sm: "block" }, fontWeight: "bold" }}
