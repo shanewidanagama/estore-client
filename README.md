@@ -9,11 +9,17 @@ Responsive storefront for Luka 2 'Trick Shot' basketball shoes. Ads on social me
 
 # How it's Made
 
-**Tech Used:** React, Material UI, TypeScript, Vite, React Router
+**Tech Used:** React, Material UI, TailwindCSS, TypeScript, Vite, React Router
 
 - Tested this web app with mobile, tablet, laptop, and desktop screens while developing using Chrome DevTools
-- MUI's Material UI was used for styling because of its wealth of reusable components to reduce needed to produce an MVP.
+- MUI's Material UI was used for styling because of its wealth of reusable components to reduce needed to produce an MVP
+- This application does not need to appear high in search results, so time to first paint is less of a concern 
 - Vite was chosen to decrease server start times.
+
+# Optimizations
+If I had more time I would,
+- Move global styles in the index.css to the CSSBaseline element in App.tsx to avoid naming conflicts
+- Use this [guide](https://mui.com/material-ui/guides/interoperability/#tailwind-css) to better integrate TailwindCSS and MUI to avoid style overrides that are hard to troubleshoot
 
 # Lessons Learned
 
