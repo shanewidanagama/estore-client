@@ -46,14 +46,16 @@ export default function ProductPage() {
                 with an emphasis on step-backs, side-steps and quick-stop
                 action.
               </Box>
-              <Button
-                variant="contained"
-                size="large"
-                color="inherit"
-                sx={{ m: "0.5rem" }}
-              >
-                <Link to={"/checkout"}>Buy Now</Link>
-              </Button>
+              <Link to={"/checkout"}>
+                <Button
+                  variant="contained"
+                  size="large"
+                  color="inherit"
+                  sx={{ m: "0.5rem" }}
+                >
+                  Buy Now
+                </Button>
+              </Link>
             </Grid>
           </Grid>
         </Box>
