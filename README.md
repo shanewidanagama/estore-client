@@ -24,7 +24,7 @@ Responsive storefront for Luka 2 'Trick Shot' basketball shoes. Ads on social me
 
 - Inspecting similar web apps to the one you want to build in Chrome DevTools is a great way to learn how to build them.
 
-# See more of my applications and automation
+# See More
 - [Reusable Spring Boot App Workflows](https://github.com/kevdev424/spring-petclinic)
 - [simpleParallax.js Quickstart Guide](https://github.com/shanewidanagama/SimpleParallax.js-analysis)
 - [Personal Site](https://github.com/shanewidanagama/shanewidanagama.github.io)
