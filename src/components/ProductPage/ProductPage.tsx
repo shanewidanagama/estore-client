@@ -2,39 +2,9 @@ import { Box, Button, Chip, Container, Grid } from "@mui/material";
 import "./ProductPage.css";
 import React from "react";
 import { Link } from "react-router-dom";
-
-interface ChipData {
-  key: number;
-  label: string;
-}
+import RadioChip from "../utils/RadioChip/RadioChip";
 
 export default function ProductPage() {
-  const [chipData] = React.useState<readonly ChipData[]>([
-    { key: 0, label: "US 3.5" },
-    { key: 1, label: "US 4" },
-    { key: 2, label: "US 4.5" },
-    { key: 3, label: "US 5" },
-    { key: 4, label: "US 5.5" },
-    { key: 4, label: "US 6" },
-    { key: 5, label: "US 6.5" },
-    { key: 6, label: "US 7" },
-    { key: 7, label: "US 7.5" },
-    { key: 8, label: "US 8" },
-    { key: 9, label: "US 8.5" },
-    { key: 10, label: "US 9" },
-    { key: 11, label: "US 9.5" },
-    { key: 12, label: "US 10" },
-    { key: 13, label: "US 10.5" },
-    { key: 14, label: "US 11" },
-    { key: 15, label: "US 11.5" },
-    { key: 16, label: "US 12" },
-    { key: 17, label: "US 12.5" },
-    { key: 18, label: "US 13" },
-  ]);
-
-  const handleClick = () => () => {
-    console.info("A shoe size was selected.");
-  };
   // container root
   return (
     <>
@@ -67,31 +37,7 @@ export default function ProductPage() {
               <Box component="h6" sx={{ p: "0.5rem", fontWeight: "bold" }}>
                 Select Size
               </Box>
-              <Box
-                sx={{
-                  display: "flex",
-                  flexWrap: "wrap",
-                  listStyle: "none",
-                  p: "0.5rem",
-                  m: 0,
-                }}
-                component="ul"
-              >
-                {chipData.map((data) => {
-                  let icon;
-
-                  return (
-                    <li key={data.key}>
-                      <Chip
-                        sx={{ margin: "0.1rem" }}
-                        icon={icon}
-                        label={data.label}
-                        onClick={handleClick()}
-                      />
-                    </li>
-                  );
-                })}
-              </Box>
+              <RadioChip />
               <Box component="p" sx={{ p: "0.5rem" }}>
                 Trick or treat? Luka's shots are often a bit of both, and this
                 special edition Luka 2 celebrates those otherworldly buckets.
