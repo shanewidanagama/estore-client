@@ -4,8 +4,8 @@ Responsive storefront for Luka 2 'Trick Shot' basketball shoes. Ads on social me
 
 **[Link to the App](https://shanewidanagama.github.io/trick-shot-ecommerce-client/)**
 
-![image](https://github.com/shanewidanagama/trick-shot-ecommerce-client/assets/46659817/69a6ecda-1eb6-4a2e-9e51-949ad5b2ef1c)
-![image](https://github.com/shanewidanagama/trick-shot-ecommerce-client/assets/46659817/4cc1c69a-52e2-45a8-a70a-c56ede266c87)
+![Laptop Demo](https://i.imgur.com/EpHuA4S.gif)
+![Mobile Demo](https://i.imgur.com/PMdnKq7.gif)
 
 # How it's Made
 
