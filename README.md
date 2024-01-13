@@ -24,7 +24,3 @@ If I had more time I would,
 # Lessons Learned
 
 - Inspecting similar web apps to the one you want to build in Chrome DevTools is a great way to learn how to build them.
-
-## References
-
-- https://www.nike.com/ca/t/luka-2-trick-shot-basketball-shoes-W1GZ1g/DX8733-103
