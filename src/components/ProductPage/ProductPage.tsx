@@ -1,6 +1,5 @@
-import { Box, Button, Chip, Container, Grid } from "@mui/material";
+import { Box, Button, Container, Grid } from "@mui/material";
 import "./ProductPage.css";
-import React from "react";
 import { Link } from "react-router-dom";
 import RadioChip from "../utils/RadioChip/RadioChip";
 
