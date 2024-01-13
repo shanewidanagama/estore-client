@@ -26,7 +26,7 @@ export default function Review() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-  
+
   return (
     <React.Fragment>
       <Typography variant="h6" gutterBottom>
@@ -42,7 +42,7 @@ export default function Review() {
         <ListItem sx={{ py: 1, px: 0 }}>
           <ListItemText primary="Total" />
           <Typography variant="subtitle1" sx={{ fontWeight: 700 }}>
-            $34.06
+            $192.10
           </Typography>
         </ListItem>
       </List>
